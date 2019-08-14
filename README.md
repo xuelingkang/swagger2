@@ -1,7 +1,23 @@
 # swagger2-plus
 >支持使用注解排除参数，基于springfox-swagger2:2.8.0版本
 ## 使用方法
-### maven依赖
+### 直接使用
+项目已经发布到maven中央仓库，直接在pom.xml中引用即可
+```xml
+<dependencies>
+    <dependency>
+        <groupId>com.xzixi</groupId>
+        <artifactId>swagger2-plus</artifactId>
+        <version>1.0</version>
+    </dependency>
+</dependencies>
+```
+### 修改后使用
+1. 下载项目<br>
+打开git bash窗口，执行命令`git clone git@gitee.com:xuelingkang/swagger2.git`
+2. 编译并安装到本地maven仓库<br>
+进入工程目录，打开cmd窗口，执行命令`mvn clean install -Dmaven.test.skip=true`
+3. 在自己的项目中引用
 ```xml
 <dependencies>
     <dependency>
