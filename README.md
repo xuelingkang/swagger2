@@ -1,5 +1,6 @@
 # swagger2-plus
->支持使用注解排除参数，基于springfox-swagger2:2.8.0版本
+>支持使用注解排除参数，基于springfox-swagger2:2.8.0版本<br>
+<a href="https://blog.csdn.net/qq_35433926" target="_blank">博客主页</a>
 ## 使用方法
 ### 直接使用
 项目已经发布到maven中央仓库，直接在pom.xml中引用即可

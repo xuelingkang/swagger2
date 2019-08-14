@@ -1,0 +1,5 @@
+com\xzixi\swagger2\plus\demo\controller\UserController.class
+com\xzixi\swagger2\plus\demo\entity\Dept.class
+com\xzixi\swagger2\plus\demo\config\Swagger2Config.class
+com\xzixi\swagger2\plus\demo\entity\User.class
+com\xzixi\swagger2\plus\demo\Swagger2PlusDemoApplication.class
