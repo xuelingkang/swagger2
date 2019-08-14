@@ -8,7 +8,7 @@
     <version>1.0</version>
     <packaging>pom</packaging>
     <name>${project.artifactId}</name>
-    <description>swagger2的扩展版本，基于2.8.0版，支持使用注解过滤字段</description>
+    <description>springfox-swagger2的扩展版本，基于2.8.0版，支持使用注解过滤字段</description>
     <url>https://gitee.com/xuelingkang/swagger2</url>
     <developers>
         <developer>

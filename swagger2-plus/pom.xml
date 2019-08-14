@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>swagger2-plus</artifactId>
     <name>${project.artifactId}</name>
-    <description>基于swagger2:2.8.0扩展</description>
+    <description>基于springfox-swagger2:2.8.0扩展</description>
     <dependencies>
         <!-- swagger2 -->
         <dependency>
