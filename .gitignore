@@ -1,4 +1,6 @@
 HELP.md
+swagger2-plus/target/
+swagger2-plus-demo/target/
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
