@@ -47,4 +47,6 @@ public class Swagger2Config {
 ```
 ### IgnoreSwagger2Parameter注解
 先看一下不使用IgnoreSwagger2Parameter注解的效果
+![不使用IgnoreSwagger2Parameter注解的效果](https://images.gitee.com/uploads/images/2019/0814/114929_385498c6_1672679.jpeg "1.jpg")
 再看看使用IgnoreSwagger2Parameter注解的效果
+![使用IgnoreSwagger2Parameter注解的效果](https://images.gitee.com/uploads/images/2019/0814/114941_d87c0198_1672679.jpeg "2.jpg")
