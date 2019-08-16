@@ -2,8 +2,11 @@
 >支持使用注解排除参数，基于springfox-swagger2:2.8.0版本<br>
 <a href="https://blog.csdn.net/qq_35433926" target="_blank">博客主页</a>
 ## 使用方法
+
 ### 直接使用
+
 项目已经发布到maven中央仓库，直接在pom.xml中引用即可
+
 ```xml
 <dependencies>
     <dependency>
@@ -13,12 +16,17 @@
     </dependency>
 </dependencies>
 ```
+
 ### 修改后使用
+
 1. 下载项目<br>
 打开git bash窗口，执行命令`git clone git@gitee.com:xuelingkang/swagger2.git`
+
 2. 编译并安装到本地maven仓库<br>
 进入工程目录，打开cmd窗口，执行命令`mvn clean install -Dmaven.test.skip=true`
+
 3. 在自己的项目中引用
+
 ```xml
 <dependencies>
     <dependency>
@@ -28,8 +36,11 @@
     </dependency>
 </dependencies>
 ```
+
 ### 配置类
+
 **所有swagger2的配置都不用变，只需要将注解替换掉**
+
 ```java
 package com.xzixi.swagger2.plus.demo.config;
 
@@ -62,8 +73,11 @@ public class Swagger2Config {
 
 }
 ```
+
 ### IgnoreSwagger2Parameter注解
+
 主要用到的类
+
 ```java
 package com.xzixi.swagger2.plus.demo.controller;
 
@@ -88,6 +102,7 @@ public class UserController {
 
 }
 ```
+
 ```java
 package com.xzixi.swagger2.plus.demo.entity;
 
@@ -110,6 +125,7 @@ public class User {
 
 }
 ```
+
 ```java
 package com.xzixi.swagger2.plus.demo.entity;
 
@@ -128,10 +144,14 @@ public class Dept {
 
 }
 ```
+
 * 先看一下不使用IgnoreSwagger2Parameter注解的效果
 ![不使用IgnoreSwagger2Parameter注解的效果](https://images.gitee.com/uploads/images/2019/0814/114929_385498c6_1672679.jpeg "1.jpg")
-* 再看看使用IgnoreSwagger2Parameter注解的效果<br>
+
+* 再看看使用IgnoreSwagger2Parameter注解的效果
+
 先修改User类
+
 ```java
 package com.xzixi.swagger2.plus.demo.entity;
 
@@ -154,7 +174,11 @@ public class User {
 
 }
 ```
+
 ![使用IgnoreSwagger2Parameter注解的效果](https://images.gitee.com/uploads/images/2019/0814/114941_d87c0198_1672679.jpeg "2.jpg")
+
 **详细使用方法请参考示例工程`swagger2-plus-demo`**
+
 ## 欢迎提出宝贵意见
+
 如果我的代码对您有帮助，希望给我个star，谢谢！
