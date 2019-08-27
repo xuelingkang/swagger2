@@ -179,6 +179,4 @@ public class User {
 
 **详细使用方法请参考示例工程`swagger2-plus-demo`**
 
-## 欢迎提出宝贵意见
-
-如果我的代码对您有帮助，希望给我个star，谢谢！
+## 欢迎issue和star！
